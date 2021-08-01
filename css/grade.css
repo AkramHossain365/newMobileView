@@ -1,0 +1,60 @@
+.grade_form{
+    background-color: black;
+    color: white;
+    font-family: 'oswald';
+    align-content: space-between;
+    font-size: 16px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    text-align: left;
+}
+.grade_form ul{
+    list-style: none;
+    align-content: space-between;
+}
+.grade_form ul h2{
+    font-weight: 800;
+    color: khaki;
+    text-align: center;
+}
+.grade_form ul li{
+    /* float: right; */
+    padding: 3px;
+}
+.grade_form ul li label{
+    /* float: left; */
+    /* display: block; */
+    
+}
+.grade_form ul li input{
+    float: right;
+    height: 22x;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 1px 5px;
+    width: 60%;
+}
+.grade_form .btn{
+    width: 60%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 10px 0px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* .grade_form button:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    transform: rotate(-360deg);
+} */
